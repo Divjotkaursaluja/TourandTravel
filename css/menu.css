@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.header{
+    height:80px;
+   
+   
+    margin-bottom:20px;
+
+}
+.menu{
+    height:80px;
+    width:900px;
+   
+    float:left;
+
+}
+.logo{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    float:left;
+
+}
+.logo img{
+    height:80px;
+    width:80px;
+    border-radius:20%;
+    float:left;
+
+
+}
+.menu ul{
+    list-style:name;
+
+}
+.menu ul li{
+    display:inline-block;
+    padding:15px 30px;
+    color:white;
+    font-size:20px;
+    border-radius:10px;
+    margin-top:10px
+}
+.menu ul li:hover{
+    background-color:green;
+    box-shadow:0px 0px 10px white;
+}

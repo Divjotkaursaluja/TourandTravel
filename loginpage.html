@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel ="icon" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+     
+     body{
+            background-image:url('images/travel-destination-top-view-design-template-vector.jpg');
+            background-size:cover;
+        }
+        .login{
+            border:1px solid red;
+            width: 300px;
+            height: 350px;
+            border-radius:20px;
+            background-color:rgba(0,0,0,0.5);
+            margin-left:5%;
+            margin-top:15%;
+            box-shadow: 0px 0px 10px blue;
+        }
+        h1{
+            color:black;
+            text-align: center;
+            margin-top:25px;
+        }
+        h3{
+            color:white;
+            margin-left:10px;
+        }
+        input[type="text"],input[type="password"]{
+            width: 150px;
+            height: 30px;
+            margin-left:10px;
+            margin-top:5px;
+            background:transparent;
+            border:none;
+            border-bottom: 2px solid rgb(31, 22, 22);
+            color:rgb(48, 212, 218);
+            outline:none;
+        }
+        input:focus{
+            border-bottom:2px solid red
+        }
+        input[type="submit"]{
+            width: 280px;
+            height: 30px;
+            margin-left:10px;
+            margin-top:5px;
+            font-size:20px;
+            border:none;
+            border-radius:10% ;
+            color:violet;
+            box-shadow:0px 0px 20px black;
+            
+            background-color:green;
+
+
+        }
+        input[type="submit"]:hover{
+            background-color:green;
+        }
+        ::placeholder{
+            color:black
+        }
+        h3{
+            color:yellow;
+            margin-left:20px ;
+            margin-top:10px;
+        }
+        i{
+            color:black;
+            margin-right:10px;
+        }
+        .user{
+            width:80px;
+            height:80px;
+            margin-top:-35%;
+            border-radius:50%;
+            margin-left:110px;
+           
+        }
+
+    
+        .highlight{
+        
+        margin-top:50px;
+        height:300px;
+        color:black;
+        }
+        .highlight h1{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight:<weight>;
+        font-style: normal;
+        color:black;
+        }
+        .imghigh{
+        width: 250px;
+        height:150px;
+        border:1px solid red;
+        padding:5px;
+        border-radius:20px;
+        margin-left:10px;
+        transition:width 2s, heigth 2s;
+        box-shadow: 0px 0px 15px black ;
+        }
+        .imghigh:hover{
+        width:300px;
+        height:200px;
+        }
+        .imgpart{
+        width: 250px;
+        height:150px;
+        border:1px solid red;
+        padding:5px;
+        border-radius:20px;
+        margin-left:10px;
+        transition:width 2s, heigth 2s;
+        box-shadow: 0px 0px 15px black ;
+        }
+        .imgpart:hover{
+        width:300px;
+        height:200px;
+        }
+        .footer{
+       width:100%;
+       height:80px;
+       }
+       .menu ul li a{
+        text-decoration:none;
+        color:black;
+
+        
+       }
+      
+
+      
+    </style>
+</head>
+<body>
+    <div class ="header"><!-- open of header-->
+        <div class="logo">
+              <img src ="images/apple-touch-icon.png">
+        </div>
+        <div class ="menu">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="aboutuspage.html">About Us</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+         </div>
+    </div><!-- end of header-->
+
+         
+    <div class="container"><!-- open of container -->
+        <div class="login">
+            <img class="user" src="images/head.png" alt="User"><br>
+            <h1>Login</h1>
+            <form action="homepage.html" method="get">
+                <h3><i class="fa-solid fa-user"></i> User name</h3>
+                <input type="text" name="u" placeholder="Student Name" required>
+                <h3><i class="fa-solid fa-lock"></i> Password</h3>
+                <input type="password" name="pa" placeholder="Password" required><br>
+                <input type="submit" name="v" value="Sign in">
+            </form>
+            <br>
+            <h3>Don't have an account? <a href="#">Sign up</a></h3>
+        </div>
+    </div><!-- end of container -->
+    
+    <div class ="highlight"><!--open of highlight-->
+        <h1>Highlights</h1> 
+       <div style ="text-align: center">
+            <img class ="imghigh" src ="images/tour1.jpg">
+            <img class ="imghigh" src ="images/tou2.webp">
+            <img class ="imghigh" src ="images/tour3.jfif">
+            <img class ="imghigh" src ="images/tour4.jfif">
+            <img class ="imghigh" src ="images/tour5.jfif">
+        </div>
+        </div><!--end of highlight-->
+        <div class="partners"><!--open of partners-->
+            <h1>Partners</h1>
+            <div style ="text-align: center">
+                <img class ="imgpart" src ="images/part1.jfif">
+                <img class ="imgpart" src ="images/part2.png">
+                <img class ="imgpart" src ="images/part3.png">
+                <img class ="imgpart" src ="images/part4.png">
+                <img class ="imgpart" src ="images/part5.png">
+        </div><!--end of partners-->
+        <div class ="footer"><!--open of footer-->
+            <p><center>&copy; 2023 All rights reserved</center></p>
+            <h2><center> Made by Divjot Kaur Saluja</center></h2>
+        </div><!--end of footer-->
+    
+</body>
+</html>
